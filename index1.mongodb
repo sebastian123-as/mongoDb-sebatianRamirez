@@ -1,0 +1,445 @@
+use('users')
+
+db.users.insertMany([
+    {
+      "nombre": "Laura",
+      "apellido": "Rodriguez",
+      "correo": "laura.rodriguez@example.com",
+      "ciudad": "Londres",
+      "pais": "España",
+      "salario": 58000,
+      "edad": 31,
+      "altura": 170,
+      "peso": 140
+    },
+    {
+      "nombre": "Michael",
+      "apellido": "Johnson",
+      "correo": "michael.johnson@example.com",
+      "ciudad": "Los Angeles",
+      "pais": "Estados Unidos",
+      "salario": 67000,
+      "edad": 38,
+      "altura": 185,
+      "peso": 180
+    },
+    {
+      "nombre": "Sofia",
+      "apellido": "Martinez",
+      "correo": "sofia.martinez@example.com",
+      "ciudad": "Lima",
+      "pais": "Perú",
+      "salario": 59000,
+      "edad": 30,
+      "altura": 166,
+      "peso": 135
+    },
+    {
+      "nombre": "Mohammed",
+      "apellido": "Ali",
+      "correo": "mohammed.ali@example.com",
+      "ciudad": "El Cairo",
+      "pais": "Egipto",
+      "salario": 63000,
+      "edad": 33,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Sophia",
+      "apellido": "Smith",
+      "correo": "sophia.smith@example.com",
+      "ciudad": "Toronto",
+      "pais": "Canadá",
+      "salario": 64000,
+      "edad": 31,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "Hiroshi",
+      "apellido": "Yamamoto",
+      "correo": "hiroshi.yamamoto@example.com",
+      "ciudad": "Osaka",
+      "pais": "Japón",
+      "salario": 70000,
+      "edad": 36,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Isabella",
+      "apellido": "Garcia",
+      "correo": "isabella.garcia@example.com",
+      "ciudad": "Bogotá",
+      "pais": "Colombia",
+      "salario": 62000,
+      "edad": 32,
+      "altura": 168,
+      "peso": 145
+    },
+    {
+      "nombre": "Ali",
+      "apellido": "Khan",
+      "correo": "ali.khan@example.com",
+      "ciudad": "Karachi",
+      "pais": "Pakistán",
+      "salario": 69000,
+      "edad": 34,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Emma",
+      "apellido": "Brown",
+      "correo": "emma.brown@example.com",
+      "ciudad": "Londres",
+      "pais": "Reino Unido",
+      "salario": 66000,
+      "edad": 35,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Mohammed",
+      "apellido": "Abdel",
+      "correo": "mohammed.abdel@example.com",
+      "ciudad": "Alejandría",
+      "pais": "Egipto",
+      "salario": 64000,
+      "edad": 30,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "Olivia",
+      "apellido": "Taylor",
+      "correo": "olivia.taylor@example.com",
+      "ciudad": "Sydney",
+      "pais": "Australia",
+      "salario": 67000,
+      "edad": 33,
+      "altura": 168,
+      "peso": 140
+    },
+    {
+      "nombre": "Ahmed",
+      "apellido": "Al-Mansour",
+      "correo": "ahmed.almansour@example.com",
+      "ciudad": "Riad",
+      "pais": "Arabia Saudita",
+      "salario": 72000,
+      "edad": 36,
+      "altura": 178,
+      "peso": 170
+    },
+    {
+      "nombre": "Amelia",
+      "apellido": "Diaz",
+      "correo": "amelia.diaz@example.com",
+      "ciudad": "Buenos Aires",
+      "pais": "Argentina",
+      "salario": 61000,
+      "edad": 31,
+      "altura": 166,
+      "peso": 145
+    },
+    {
+      "nombre": "Ahmed",
+      "apellido": "Ali",
+      "correo": "ahmed.ali@example.com",
+      "ciudad": "El Cairo",
+      "pais": "Egipto",
+      "salario": 65000,
+      "edad": 34,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Hannah",
+      "apellido": "Wilson",
+      "correo": "hannah.wilson@example.com",
+      "ciudad": "Melbourne",
+      "pais": "Australia",
+      "salario": 63000,
+      "edad": 32,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "David",
+      "apellido": "Kim",
+      "correo": "david.kim@example.com",
+      "ciudad": "Seúl",
+      "pais": "Corea del Sur",
+      "salario": 68000,
+      "edad": 35,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Emily",
+      "apellido": "Jones",
+      "correo": "emily.jones@example.com",
+      "ciudad": "Chicago",
+      "pais": "Estados Unidos",
+      "salario": 69000,
+      "edad": 34,
+      "altura": 168,
+      "peso": 140
+    },
+    {
+      "nombre": "Mohammad",
+      "apellido": "Ahmed",
+      "correo": "mohammad.ahmed@example.com",
+      "ciudad": "Dhaka",
+      "pais": "Bangladesh",
+      "salario": 66000,
+      "edad": 33,
+      "altura": 170,
+      "peso": 145
+    },
+    {
+      "nombre": "Sophia",
+      "apellido": "Alvarez",
+      "correo": "sophia.alvarez@example.com",
+      "ciudad": "Santiago",
+      "pais": "Chile",
+      "salario": 64000,
+      "edad": 31,
+      "altura": 166,
+      "peso": 135
+    },
+    {
+      "nombre": "Sebastian",
+      "apellido": "Gomez",
+      "correo": "sebastian.gomez@example.com",
+      "ciudad": "Montevideo",
+      "pais": "Uruguay",
+      "salario": 67000,
+      "edad": 34,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Aisha",
+      "apellido": "Khan",
+      "correo": "aisha.khan@example.com",
+      "ciudad": "Lahore",
+      "pais": "Pakistán",
+      "salario": 62000,
+      "edad": 32,
+      "altura": 168,
+      "peso": 150
+    }
+  ]
+)
+
+
+db.users.find({
+    edad: {
+        $gt: 18
+    }
+}) // -> mayores a 18 usando $gt
+
+
+db.users.find({
+    ciudad: {
+        $in: [
+            "Londres",
+            "París"
+        ]
+    }
+}); //Ciudad londres o parís usando $in
+
+db.users.find({
+    salario: {
+        $gt: 2000
+    },
+    edad: {
+        $lt: 30
+    }
+}); //Salario mauor a 2000 con $gt y edad menor a 30 con $lt
+
+db.users.find({
+    pais: {
+        $eq: 'España'
+    },
+    salario: {
+        $gt: 3000
+    }
+}); //Pais España con $eq y salario mayor de 3000 con $gt
+
+db.users.find({
+    edad: {
+        $gte: 25
+    },
+    edad: {
+        $lte: 30
+    }
+}); //Edad mayor o igual a 25 usando $gte y edad menor de 30 usando $gte
+
+
+db.users.find({
+    pais: {
+        $ne : "Estados Unidos"
+    }
+})//Que no sean de Estados unidos $ne
+
+
+db.users.find({
+    $and: [
+        {ciudad: "Londres"},
+        {$or: [
+            {edad: {
+                $gt: 30
+            }},
+            {salario: {
+                $gt: 2500
+            }},
+        ]},
+    ]  
+});
+
+db.users.find({
+    $and: [
+        {pais: "Australia"},
+        {peso: {
+            $gt: 140
+        }}
+    ]
+})
+
+db.users.find({
+    ciudad: {
+        $nin : ["Londres", "París"]
+    }
+})
+
+db.users.find({
+    $or: [
+        {salario: {
+            $lt: 2000
+        }},
+        {edad: {
+            $gt: 40
+        }}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {ciudad: "Canadá "},
+        {$or: [
+            {salario: {
+                $gt: 4000
+            }},
+            {altura: {
+                $gt: 180
+            }}
+        ]}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {ciudad: "Italia"},
+        {edad: {
+            $gte: 20
+        }},
+        {edad: {
+            $lte: 30
+        }}
+    ]
+})
+
+db.users.find({
+    correo: {
+        $exists : false
+    }
+})
+
+db.users.find({
+    $and: [
+        {pais: "Francia"},
+        {$and: [
+            {salario: {
+                gte: 3000
+            }},
+            {salario: {
+                lte: 5000
+            }}
+        ]}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {pais: "Brasil"},
+        {$or: [
+            {peso: {
+                $lt: 120
+            }},
+            {peso: {
+                $gt: 140
+            }}
+        ]}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {pais: {
+            $in: ["Argentina", "Chile"]
+        }},
+        {edad: {
+            $lt: 38
+        }}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {pais: {
+            $nin: ["España", "México"]
+        }},
+        {salario: {
+            $lt: 3000
+        }}
+    ]
+})
+
+
+db.users.find({
+    $and: [
+        {pais: "Alemania"},
+        {$or: [
+            {salario: {
+                $lt: 4000
+            }},
+            {edad: {
+                $gt: 35
+            }}
+        ]}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {pais: {
+            $ne: "Colombia"
+        }},
+        {altura: {
+            $lt: 170
+        }}
+    ]
+})
+
+db.users.find({
+    $and: [
+        {pais: "India"},
+        {salario: {
+            $exists: false
+        }}
+    ]
+})
