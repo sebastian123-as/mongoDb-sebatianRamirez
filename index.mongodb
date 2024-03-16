@@ -1,0 +1,528 @@
+db.taller2.insertMany([
+    {
+      "nombre": "Laura",
+      "apellido": "Rodriguez",
+      "correo": "laura.rodriguez@example.com",
+      "ciudad": "Barcelona",
+      "pais": "España",
+      "salario": 58000,
+      "edad": 29,
+      "altura": 170,
+      "peso": 140
+    },
+    {
+      "nombre": "Michael",
+      "apellido": "Johnson",
+      "correo": "michael.johnson@example.com",
+      "ciudad": "Los Angeles",
+      "pais": "Estados Unidos",
+      "salario": 67000,
+      "edad": 38,
+      "altura": 185,
+      "peso": 180
+    },
+    {
+      "nombre": "Sofia",
+      "apellido": "Martinez",
+      "correo": "sofia.martinez@example.com",
+      "ciudad": "Lima",
+      "pais": "Perú",
+      "salario": 59000,
+      "edad": 30,
+      "altura": 166,
+      "peso": 135
+    },
+    {
+      "nombre": "Mohammed",
+      "apellido": "Ali",
+      "correo": "mohammed.ali@example.com",
+      "ciudad": "El Cairo",
+      "pais": "Egipto",
+      "salario": 63000,
+      "edad": 33,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Sophia",
+      "apellido": "Smith",
+      "correo": "sophia.smith@example.com",
+      "ciudad": "Toronto",
+      "pais": "Canadá",
+      "salario": 64000,
+      "edad": 31,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "Hiroshi",
+      "apellido": "Yamamoto",
+      "correo": "hiroshi.yamamoto@example.com",
+      "ciudad": "Osaka",
+      "pais": "Japón",
+      "salario": 70000,
+      "edad": 36,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Isabella",
+      "apellido": "Garcia",
+      "correo": "isabella.garcia@example.com",
+      "ciudad": "Bogotá",
+      "pais": "Colombia",
+      "salario": 62000,
+      "edad": 32,
+      "altura": 168,
+      "peso": 145
+    },
+    {
+      "nombre": "Ali",
+      "apellido": "Khan",
+      "correo": "ali.khan@example.com",
+      "ciudad": "Karachi",
+      "pais": "Pakistán",
+      "salario": 69000,
+      "edad": 34,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Emma",
+      "apellido": "Brown",
+      "correo": "emma.brown@example.com",
+      "ciudad": "Londres",
+      "pais": "Reino Unido",
+      "salario": 66000,
+      "edad": 35,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Mohammed",
+      "apellido": "Abdel",
+      "correo": "mohammed.abdel@example.com",
+      "ciudad": "Alejandría",
+      "pais": "Egipto",
+      "salario": 64000,
+      "edad": 30,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "Olivia",
+      "apellido": "Taylor",
+      "correo": "olivia.taylor@example.com",
+      "ciudad": "Sydney",
+      "pais": "Australia",
+      "salario": 67000,
+      "edad": 33,
+      "altura": 168,
+      "peso": 140
+    },
+    {
+      "nombre": "Ahmed",
+      "apellido": "Al-Mansour",
+      "correo": "ahmed.almansour@example.com",
+      "ciudad": "Riad",
+      "pais": "Arabia Saudita",
+      "salario": 72000,
+      "edad": 36,
+      "altura": 178,
+      "peso": 170
+    },
+    {
+      "nombre": "Amelia",
+      "apellido": "Diaz",
+      "correo": "amelia.diaz@example.com",
+      "ciudad": "Buenos Aires",
+      "pais": "Argentina",
+      "salario": 61000,
+      "edad": 31,
+      "altura": 166,
+      "peso": 145
+    },
+    {
+      "nombre": "Ahmed",
+      "apellido": "Ali",
+      "correo": "ahmed.ali@example.com",
+      "ciudad": "El Cairo",
+      "pais": "Egipto",
+      "salario": 65000,
+      "edad": 34,
+      "altura": 172,
+      "peso": 155
+    },
+    {
+      "nombre": "Hannah",
+      "apellido": "Wilson",
+      "correo": "hannah.wilson@example.com",
+      "ciudad": "Melbourne",
+      "pais": "Australia",
+      "salario": 63000,
+      "edad": 32,
+      "altura": 170,
+      "peso": 150
+    },
+    {
+      "nombre": "David",
+      "apellido": "Kim",
+      "correo": "david.kim@example.com",
+      "ciudad": "Seúl",
+      "pais": "Corea del Sur",
+      "salario": 68000,
+      "edad": 35,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Emily",
+      "apellido": "Jones",
+      "correo": "emily.jones@example.com",
+      "ciudad": "Chicago",
+      "pais": "Estados Unidos",
+      "salario": 69000,
+      "edad": 34,
+      "altura": 168,
+      "peso": 140
+    },
+    {
+      "nombre": "Mohammad",
+      "apellido": "Ahmed",
+      "correo": "mohammad.ahmed@example.com",
+      "ciudad": "Dhaka",
+      "pais": "Bangladesh",
+      "salario": 66000,
+      "edad": 33,
+      "altura": 170,
+      "peso": 145
+    },
+    {
+      "nombre": "Sophia",
+      "apellido": "Alvarez",
+      "correo": "sophia.alvarez@example.com",
+      "ciudad": "Santiago",
+      "pais": "Chile",
+      "salario": 64000,
+      "edad": 31,
+      "altura": 166,
+      "peso": 135
+    },
+    {
+      "nombre": "Sebastian",
+      "apellido": "Gomez",
+      "correo": "sebastian.gomez@example.com",
+      "ciudad": "Montevideo",
+      "pais": "Uruguay",
+      "salario": 67000,
+      "edad": 34,
+      "altura": 175,
+      "peso": 160
+    },
+    {
+      "nombre": "Aisha",
+      "apellido": "Khan",
+      "correo": "aisha.khan@example.com",
+      "ciudad": "Lahore",
+      "pais": "Pakistán",
+      "salario": 62000,
+      "edad": 32,
+      "altura": 168,
+      "peso": 150
+    }
+  ]
+)
+
+
+ //************* ELIMINACION *******************
+
+db.taller2.deleteMany(
+    {salario: {
+        $lt: 2000
+    }}
+)
+
+db.taller2.deleteMany(
+    {edad: {
+        $lt: 25
+    }}
+)
+
+db.taller2.deleteMany(
+    {ciudad: {
+        $eq: "París"
+    }}
+)
+
+db.taller2.deleteMany(
+    {peso: {
+        $gt: 180
+    }}
+)
+
+db.taller2.deleteMany(
+    {altura: {
+        $lt: 160
+    }}
+)
+
+db.taller2.deleteMany(
+    {$and: [
+        {nombre: "John"},
+        {apellido: "Doe"}
+    ]}
+)
+
+db.taller2.deleteMany(
+    {correo: "sebastian.gomez@example.com"}
+)
+
+db.taller2.deleteMany(
+    {
+        correo: {
+            $exists: false
+        }
+    }
+)
+
+db.taller2.deleteMany(
+    {ciudad: "Tokyo"}
+)
+
+db.taller2.deleteMany(
+    {edad: {
+        $lt: 18
+    }}
+)
+
+db.taller2.deleteMany(
+    {salario: 0}
+)
+
+db.taller2.deleteMany(
+    {$and: [
+        {ciudad: "New York"},
+        {salario: {
+            $gt: 5000
+        }}
+    ]}
+)
+
+db.taller2.deleteMany(
+    {correo: {
+        $regex: "spam"
+    }}
+)
+
+db.taller2.deleteMany(
+    {$and: [
+        {ciudad: "Bello"},
+        {edad: {
+            $gt: 50
+        }}
+    ]}
+)
+
+db.taller2.deleteMany(
+    {apellido: "González"}
+)
+
+db.taller2.deleteMany(
+    {edad: {
+        $gt: 70
+    }}
+)
+
+db.taller2.deleteMany(
+    {$and: [
+        {pais: "Canadá"},
+        {salario: {
+            $lt: 4000
+        }}
+    ]}
+)
+
+db.taller2.deleteMany(
+    {$and: [
+        {salario: {
+            $gte: 1000
+        }},
+        {salario: {
+            $lte: 2000
+        }}
+    ]}
+)
+
+db.taller2.deleteMany(
+    {edad: 30}
+)
+
+db.taller2.deleteMany(
+    {altura: {
+        $gt: 190
+    }}
+)
+
+
+/**************** Actualizaciones *****************/
+
+db.taller2.updateMany(
+    {},
+    {$mul: { //Multiplica el salario por lo que se le ingrese
+        salario: 1.1
+    }}
+)
+
+db.taller2.updateMany(
+    {ciudad: "New York"},
+    {$set: {
+        ciudad: "Los Ángeles"
+    }}
+)
+
+db.taller2.updateOne(
+    {$and: [
+        {nombre: "Juan"},
+        {apellido: "Perez"}
+    ]},
+    {$set: {
+        correo: "nuevo@riwi.com"
+    }}
+)
+
+db.taller2.updateOne(
+    {correo: "ejemplo@riwi.es"},
+    {$set: {
+        edad: 35
+    }}
+)
+
+db.taller2.updateMany(
+    {pais: "Mexico"},
+    {$set: {
+        pais: "Canada"
+    }}
+)
+
+db.taller2.updateMany(
+    {},
+    {$inc: {
+        altura: 5
+    }}
+)
+
+db.taller2.updateOne(
+    {correo: "otro@riwi.net"},
+    {$set: {
+        apellido: "González"
+    }}
+)
+
+db.taller2.updateOne(
+    {nombre: "Maria"},
+    {$set: {
+        peso: 140
+    }}
+)
+
+db.taller2.updateMany(
+    {pais: "Estados Unidos"},
+    {$mul: {
+        salario: 1.15
+    }}
+)
+
+db.taller2.updateOne(
+    {nombre: "Pedro"},
+    {$set: {
+        correo: "nuevo_correo@riwi.co"
+    }}
+)
+
+db.taller2.updateMany(
+    {edad: {
+        $lt: 30
+    }},
+    {$set: {
+        edad: 30
+    }}
+)
+
+db.taller2.updateMany(
+    {salario: {
+        $lt: 3000
+    }},
+    {$mul: {
+        salario: 1.20
+    }}
+)
+
+db.taller2.updateMany(
+    {ciudad: "Bogotá"},
+    {$set: {
+        ciudad: "Medellín"
+    }}
+)
+
+db.taller2.updateMany(
+    {salario: {
+        $gt: 5000
+    }},
+    {$set: {
+        pais: "Australia"
+    }}
+)
+
+db.taller2.updateMany(
+    {edad: {
+        $gt: 50
+    }},
+    {$inc: {
+        edad: -5
+    }}
+)
+
+db.taller2.updateMany(
+    {peso: {
+        $gt: 200
+    }},
+    {$set: {
+        peso: 180
+    }}
+)
+
+db.taller2.updateMany(
+    {ciudad: "Londres"},
+    {$mul: {
+        salario: 1.25
+    }}
+)
+
+db.taller2.updateMany(
+    {salario: {
+        $gt: 4000
+    }},
+    {$set: {
+        apellido: "Smith"
+    }}
+)
+
+db.taller2.updateMany(
+    {nombre: {
+        $regex: /^A/
+    }},
+    {$set: {
+        correo: "nuevo@riwi.es"
+    }}
+)
+
+db.taller2.updateMany(
+    {altura: {
+        $lt: 160
+    }},
+    {$set: {
+        ciudad: "París"
+    }}
+)
+
+db.taller2.find()
